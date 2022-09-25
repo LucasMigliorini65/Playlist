@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  href="List.Css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    
+    
+    
+</head>
+<body>
+    <div class="side">
+        <div id="lateral-left">
+            <div id="pesquisa"> <input type="search" placeholder="Pesquise uma musica"></div>
+
+            <div id="listzada"><h3>Minha Playlist</h3></div>
+            <div id="album">
+                <p>Álbum</p>
+                <ul>
+                    <li>Tim Maia - Ela partiu</li>
+                    <li>Alec Benjamin - Let me Down</li>
+                    <li>50 Cent - In da Club</li>
+                    <li>Cartola - Preciso me encontrar</li>
+                    <li>Mc Kevin - 30 Minutos</li>
+                    <li>Electro - Tristam</li>
+                    <li>Ice Cube - It was good day</li>
+                    <li>21 Savage - A lot</li>
+                    <li>Andrea Bocelli - Corcovado</li>
+                </ul>
+            </div>
+        </div>
+        <div id="meio"> 
+        <div id="logo" >
+            <img src="IMG/icons8-deezer-64.png"/>
+        </div>
+        
+            <div class="style-music" id="sav"  onclick="myFunction()"><img src="IMG/212190-a-lot.jpg" /> <a>21 Savage - A lot</a> <audio src="SONGS/21 Savage.mp3"> </audio></div>
+            <div class="style-music" id="cartola" onclick="myFunction()"><img src="IMG/500x500.jpg"/><a>Cartola - Preciso me encontrar</a></div>
+            <div class="style-music" id="corcovado" onclick="myFunction()"><img src="IMG/ab67616d0000b27340db02839418d85e13488076.jpg"/><a>Andre Bocelli - Corcovado</a></div>
+            <div class="style-music" id="elec" onclick="myFunction()"><img src="IMG/3ef122218e6897b04bafb48ca8e3ae50.512x512x1.jpg"/><a>Electro - Tristam</a></div>
+            <div class="style-music" id="Kevin" onclick="myFunction()"><img src="IMG/418bbe8b1c8ab72a35b3e814799b53ed.webp"/><a>Mc Kevin - 30 Minutos</a></div>
+            <div class="style-music" id="ice" onclick="myFunction()"><img src="IMG/350x350.jpg"/><a>Ice Cube - It was good day </a></div>
+            <div class="style-music" id="tim" onclick="myFunction()"><img src="IMG/ab67616d0000b2733faf680c98eed3f0a6ecb61d.jpg"/><a>Tim Maia - Ela partiu</a></div>
+            <div class="style-music" id="alec"   onclick="myFunction()"><img src="IMG/0.jpg"/><a>Alec Benjamin - Let me down</a></div>
+            <div class="style-music" id="cent"  onclick="myFunction()"><img src="IMG/R-1621989-1283181836.jpg"/><a>50 Cent - In da club</a></div>
+        
+        </div>
+        <!-- Fazendo player lateral-->
+        <div id="lateral-right">
+        
+            <div id="logo2"><img src="IMG/icons8-deezer-64.png"/></div>
+            <br/>
+            <div> 
+                <img src="IMG/212190-a-lot.jpg" width="80px" height="80px"/>
+            </div>
+            <div class="descricao">
+             <div class="nomemusica"> A lot </div>   
+            <br/>
+            <div class="nomedoartista"> <i>21 - Savage</i> </div>
+            <br/>
+             </div>
+             <div class="duracao">
+                <div class="barra">
+                    <progress value="0" max="1"></progress>
+                    <div class="ponto"></div>
+                </div>
+                <div class="tempo">
+                    <p class="inicio"> 0:00</p>
+                    <p class="fim">3:40</p>
+                </div>
+             </div>
+             <div class="player">
+                <img src="IMG/icons8-next-page-32.png" class="setas"/>
+                <img src="IMG/icons8-play-30.png" class="botao-play"/>
+                <img src="IMG/icons8-back-67.png" class="setas"/> 
+                <img src= "IMG/icons8-pause-50.png" class="botao-pause"/>
+             </div>
+             
+        </div>
+        
+        <!--Até aqui-->
+    </div>
+    <script src="tlastcode.js"></script>
+</body>
+
+</html>
